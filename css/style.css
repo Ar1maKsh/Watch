@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: League Spartan;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 44.64px;
+  color: #161515;
+}
+
+button {
+  border: none;
+}
+
+#watch {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.watch {
+  display: flex;
+}
+
+.watch-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.watch-text h1 {
+  font-weight: 300;
+  font-size: 230px;
+  line-height: 230px;
+}
+
+.watch-text p {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 49.6px;
+  width: 500px;
+  color: #161515;
+}
+
+.watch-text button {
+  background-color: #161515;
+  width: 278px;
+  height: 82px;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 29.44px;
+}
+
+.watch-button button:nth-child(2) {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 59.52px;
+  color: #272727;
+  width: 143px;
+  height: 82px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 28px 0px #d6d6d640;
+  align-items: center;
+}
+
+.watch img {
+  padding-left: 50px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-text h1 {
+  font-size: 72px;
+  line-height: 81px;
+}
+
+.box {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.box h1 {
+  font-size: 32px;
+  line-height: 29.44px;
+  color: #000000;
+}
+
+.box p {
+  font-size: 32px;
+  line-height: 49.6px;
+  font-weight: 300;
+  color: #161515;
+  width: 560px;
+  text-align: center;
+}
+
+.box-img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: 570px;
+  background-color: #f8f8f8;
+}
+
+#product {
+  padding-top: 140px;
+}
+
+.product-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-text h1 {
+  font-size: 32px;
+  line-height: 59.52px;
+  color: #161515;
+}
+
+.product-text P {
+  text-align: center;
+  line-height: 40.8px;
+  padding: 50px 0;
+  font-size: 24px;
+  width: 520px;
+}
